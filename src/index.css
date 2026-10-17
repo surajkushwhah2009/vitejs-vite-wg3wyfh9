@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  font-family: sans-serif;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#roomId {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+}
+
+#roomId:focus {
+  border-color: #007bff;
+}
+
+#joinBtn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#joinBtn:hover {
+  background: #0056b3;
+}
